@@ -319,7 +319,7 @@
         
         $.ajax({
             type: "POST",
-            url: "php/privacyform-process.php",
+            url: "https://myguy-server-production.up.railway.app/sendEmail",
             data: "name=" + name + "&email=" + email + "&select=" + select + "&terms=" + terms, 
             success: function(text) {
                 if (text == "success") {
