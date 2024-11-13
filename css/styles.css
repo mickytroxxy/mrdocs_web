@@ -2052,6 +2052,23 @@ a:hover.back-to-top {
 	.basic-4 .image-container {
 		margin-left: 3rem;
 	}
+	.image-container2 {
+		margin-left: 3rem;
+		display: flex;
+		justify-content: center; /* Center images horizontally */
+		gap: 20px; /* Adjust spacing between images */
+	}
+	.img-fluid2 {
+		max-width: 50%;
+		height: auto;
+	}
+	.rotated-image:nth-child(1) {
+		transform: rotate(-10deg); /* Rotate first image */
+	}
+	
+	.rotated-image:nth-child(2) {
+		transform: rotate(10deg); /* Rotate second image */
+	}
 	/* end of download */
 
 
