@@ -1958,7 +1958,8 @@ a:hover.back-to-top {
 	}
 
 	.header .image-container {
-		margin-left: 3rem;
+		margin-left: 1rem;
+		max-width: 100rem;
 	}
 	/* end of header */
 
